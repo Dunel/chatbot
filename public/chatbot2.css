@@ -1,0 +1,106 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.chat-container {
+  background-color: #333333;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.respuesta-container {
+  color: #ffffff;
+}
+.col-lg-8 {
+  background-color: #333333;
+}
+
+#message-input {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+.avatar-container {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .chat-container {
+    height: 70vh;
+    overflow-y: scroll;
+  }
+  
+  #opciones-lista .last-item {
+    margin-right: 0;
+  }
+
+  .opcion-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .fila-opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .fila-opciones a {
+    margin: 5px;
+  }
+  
+  .opciones-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+  
+  .opcion-link {
+    display: block;
+    width: 100px; /* Ancho mínimo de cada opción */
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  #opciones-container {
+    height: 250px; /* Ajusta la altura según sea necesario */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+  }
+
+  #respuesta-container {
+    max-height: 200; /* Establecer una altura máxima para la respuesta */
+    overflow-y: auto; /* Agregar una barra de desplazamiento vertical si es necesario */
+  }
+  
+  .mensaje-enviado {
+    background-color: #335577;
+    color: #ffffff;
+  }
+
+  .bg-custom {
+    background-color: #2c5234; /* Color de fondo verde oscuro personalizado */
+  }
+  

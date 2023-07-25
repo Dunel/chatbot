@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alina Chatbot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link href="chatbot2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h1>Alina</h1>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="chat-container"
+            id="chat-container">
+            <div class="bg-dark rounded-lg shadow-lg p-4 mb-4">
+              <p id="texto-predefinido" class="text-sm">
+                Hola, soy Alina, ¿en qué puedo ayudarte?
+              </p>
+            </div>
+            <div class="bg-dark rounded-lg shadow-lg p-4 mb-4">
+              <p id="texto-predefinido2" class="text-sm">
+                Aquí tienes algunas opciones:
+              </p>
+              <div class="opciones-container hidden" id="opciones-container">
+                <div class="opciones-lista" id="opciones-lista">
+                  <!-- Las opciones generadas se agregarán aquí -->
+                </div>
+              </div>
+            </div>
+            <div class="bg-dark rounded-lg shadow-lg p-4 mb-4">
+              <p id="respuesta-container"></p>
+            </div>
+          </div>
+          <div class="d-flex mt-4 input-container">
+            <div class="flex-grow-1 me-2">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Escribe tu mensaje..."
+                id="message-input"
+              />
+            </div>
+            <button class="btn btn-primary" onclick="sendMessage()">
+              Enviar
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="d-flex flex-column align-items-center mt-4">
+            <img
+              src="alina2.gif"
+              alt="Avatar sin reproducción"
+              class="avatar-image"
+              id="avatar-image"
+            />
+            <img
+              src="alina.gif"
+              alt="Reproduciendo voz"
+              class="avatar-image d-none"
+              id="reproduciendo-image"
+            />
+            <button onclick="detener()" class="btn btn-danger mt-2">
+              Detener
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

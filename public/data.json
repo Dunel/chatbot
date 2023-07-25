@@ -1,0 +1,306 @@
+{
+  "data": [
+    {
+      "name": "Python",
+      "keyword": ["python"],
+      "res": "Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. Python se destaca por su sintaxis simple y legible, lo cual lo hace muy amigable para principiantes. Es conocido por su enfoque en la legibilidad del código y su énfasis en la simplicidad y la claridad. Python es ampliamente utilizado en diferentes áreas como desarrollo web, análisis de datos, inteligencia artificial, automatización de tareas y más. Es un lenguaje versátil y poderoso que cuenta con una amplia comunidad de desarrolladores y una gran cantidad de bibliotecas y herramientas disponibles."
+    },
+    {
+      "name": "for",
+      "keyword": ["for"],
+      "res": "En Python, el bucle 'for' se utiliza para iterar sobre una secuencia de elementos. Permite ejecutar un bloque de código para cada elemento de la secuencia."
+    },
+    {
+      "name": "if",
+      "keyword": ["if", "condicional"],
+      "res": "El condicional 'if' en Python se utiliza para ejecutar un bloque de código si se cumple una determinada condición. Puede ir seguido de una o varias cláusulas 'elif' y una cláusula 'else' opcional."
+    },
+    {
+      "name": "while",
+      "keyword": ["while"],
+      "res": "En Python, el bucle 'while' se utiliza para repetir un bloque de código mientras se cumpla una determinada condición."
+    },
+    {
+      "name": "bucle",
+      "keyword": ["bucle"],
+      "res": "En Python, el término 'bucle' se utiliza para referirse a cualquier tipo de estructura repetitiva, como 'for' y 'while'."
+    },
+    {
+      "name": "lista",
+      "keyword": ["lista", "arreglo"],
+      "res": "En Python, una lista es una estructura de datos que permite almacenar y acceder a varios elementos. Se puede acceder a los elementos de una lista mediante índices y se pueden realizar varias operaciones como agregar, eliminar y modificar elementos."
+    },
+    {
+      "name": "diccionario",
+      "keyword": ["diccionario", "mapa", "clave-valor"],
+      "res": "En Python, un diccionario es una estructura de datos que permite almacenar pares clave-valor. Se puede acceder a los valores mediante las claves y se pueden realizar operaciones como agregar, eliminar y modificar elementos."
+    },
+    {
+      "name": "funcion",
+      "keyword": ["funcion", "metodo"],
+      "res": "En Python, una función es un bloque de código reutilizable que realiza una tarea específica. Se puede definir una función utilizando la palabra clave 'def' y se puede llamar a una función para ejecutar su código."
+    },
+    {
+      "name": "clase",
+      "keyword": ["clase", "objeto"],
+      "res": "En Python, una clase es una plantilla para crear objetos. Define las propiedades y comportamientos que tendrán los objetos. Los objetos son instancias de una clase y pueden tener atributos y métodos."
+    },
+    {
+      "name": "modulo",
+      "keyword": ["modulo", "biblioteca"],
+      "res": "En Python, un módulo es un archivo que contiene definiciones y declaraciones de código reutilizable. Los módulos se utilizan para organizar y reutilizar código en diferentes programas."
+    },
+    {
+      "name": "archivo",
+      "keyword": ["archivo", "lectura", "escritura"],
+      "res": "En Python, se pueden leer y escribir datos en archivos utilizando las funciones y métodos proporcionados por el lenguaje. Se pueden abrir archivos en diferentes modos, como lectura ('r'), escritura ('w') y apéndice ('a')."
+    },
+    {
+      "name": "excepcion",
+      "keyword": ["excepcion", "error"],
+      "res": "En Python, una excepción es un evento que ocurre durante la ejecución de un programa y interrumpe el flujo normal de ejecución. Las excepciones se utilizan para manejar errores y tomar acciones adecuadas cuando algo inesperado sucede."
+    },
+    {
+      "name": "cadena",
+      "keyword": ["cadena", "string", "texto"],
+      "res": "En Python, una cadena (string) es una secuencia de caracteres que se utiliza para representar texto. Las cadenas se pueden manipular y combinar mediante operaciones como concatenación, extracción de subcadenas y búsqueda de patrones."
+    },
+    {
+      "name": "numero",
+      "keyword": ["numero", "entero", "flotante"],
+      "res": "En Python, los números se dividen en dos tipos principales: enteros (int) y flotantes (float). Los números enteros representan valores numéricos enteros sin decimales, mientras que los números flotantes representan valores con decimales."
+    },
+    {
+      "name": "booleano",
+      "keyword": ["booleano", "True", "False"],
+      "res": "En Python, los valores booleanos representan la verdad o la falsedad de una condición. Los valores booleanos son 'True' (verdadero) y 'False' (falso) y se utilizan en expresiones lógicas y de control de flujo."
+    },
+    {
+      "name": "operador",
+      "keyword": [
+        "operador",
+        "suma",
+        "resta",
+        "multiplicacion",
+        "division",
+        "modulo"
+      ],
+      "res": "En Python, los operadores se utilizan para realizar operaciones en variables y valores. Los operadores incluyen operadores aritméticos (+, -, *, /, %), operadores de asignación (=), operadores de comparación (==, >, <, !=), operadores lógicos (and, or, not) y más."
+    },
+    {
+      "name": "importar",
+      "keyword": ["importar", "import"],
+      "res": "En Python, la palabra clave 'import' se utiliza para importar módulos y bibliotecas externas en un programa. Permite acceder a las funciones, clases y variables definidas en esos módulos y utilizarlas en el programa actual."
+    },
+    {
+      "name": "input",
+      "keyword": ["input", "entrada", "usuario"],
+      "res": "En Python, la función 'input' se utiliza para obtener una entrada de usuario desde la línea de comandos. Permite al usuario ingresar datos que luego se pueden utilizar en el programa."
+    },
+    {
+      "name": "print",
+      "keyword": ["print", "imprimir", "consola"],
+      "res": "En Python, la función 'print' se utiliza para mostrar mensajes y valores en la consola. Permite imprimir texto, variables y expresiones en la salida estándar."
+    },
+    {
+      "name": "comentario",
+      "keyword": ["comentario", "comentar"],
+      "res": "En Python, los comentarios se utilizan para agregar anotaciones y explicaciones en el código. Los comentarios son ignorados por el intérprete de Python y no tienen ningún efecto en la ejecución del programa."
+    },
+    {
+      "name": "len",
+      "keyword": ["len", "longitud"],
+      "res": "En Python, la función 'len' se utiliza para obtener la longitud o el número de elementos de una secuencia, como una cadena, lista o tupla. Retorna un valor entero que representa la cantidad de elementos en la secuencia."
+    },
+    {
+      "name": "range",
+      "keyword": ["range", "rango"],
+      "res": "En Python, la función 'range' se utiliza para generar una secuencia de números en un rango especificado. Se puede especificar el inicio, fin y paso de la secuencia. La secuencia generada es utilizada comúnmente en bucles 'for'."
+    },
+    {
+      "name": "append",
+      "keyword": ["append", "agregar", "añadir"],
+      "res": "En Python, el método 'append' se utiliza para agregar un elemento al final de una lista. Modifica la lista existente agregando el elemento especificado al final de la misma."
+    },
+    {
+      "name": "pop",
+      "keyword": ["pop", "eliminar", "quitar"],
+      "res": "En Python, el método 'pop' se utiliza para eliminar y devolver el último elemento de una lista. También se puede especificar un índice para eliminar y obtener un elemento específico de la lista."
+    },
+    {
+      "name": "split",
+      "keyword": ["split", "dividir", "cadena"],
+      "res": "En Python, el método 'split' se utiliza para dividir una cadena en una lista de subcadenas basadas en un delimitador especificado. Retorna una lista de subcadenas resultantes de la división."
+    },
+    {
+      "name": "join",
+      "keyword": ["join", "unir", "concatenar"],
+      "res": "En Python, el método 'join' se utiliza para unir una lista de cadenas en una sola cadena utilizando un separador especificado. Retorna una cadena resultante de la concatenación de las cadenas de la lista."
+    },
+    {
+      "name": "upper",
+      "keyword": ["upper", "mayusculas"],
+      "res": "En Python, el método 'upper' se utiliza para convertir una cadena en mayúsculas. Retorna una nueva cadena con todos los caracteres convertidos a mayúsculas."
+    },
+    {
+      "name": "lower",
+      "keyword": ["lower", "minusculas"],
+      "res": "En Python, el método 'lower' se utiliza para convertir una cadena en minúsculas. Retorna una nueva cadena con todos los caracteres convertidos a minúsculas."
+    },
+    {
+      "name": "strip",
+      "keyword": ["strip", "eliminar espacios", "borrar espacios"],
+      "res": "En Python, el método 'strip' se utiliza para eliminar los espacios en blanco al inicio y al final de una cadena. Retorna una nueva cadena sin los espacios en blanco."
+    },
+    {
+      "name": "replace",
+      "keyword": ["replace", "reemplazar", "sustituir"],
+      "res": "En Python, el método 'replace' se utiliza para reemplazar todas las ocurrencias de una subcadena por otra subcadena en una cadena. Retorna una nueva cadena con las sustituciones realizadas."
+    },
+    {
+      "name": "format",
+      "keyword": ["format", "formatear"],
+      "res": "En Python, el método 'format' se utiliza para formatear una cadena con valores variables. Permite combinar una cadena de formato con valores especificados y generar una cadena resultante."
+    },
+    {
+      "name": "random",
+      "keyword": ["random", "aleatorio"],
+      "res": "En Python, el módulo 'random' se utiliza para generar números aleatorios. Proporciona funciones para generar números enteros aleatorios, números de punto flotante aleatorios y seleccionar elementos aleatorios de una secuencia."
+    },
+    {
+      "name": "datetime",
+      "keyword": ["datetime", "fecha", "hora"],
+      "res": "En Python, el módulo 'datetime' se utiliza para trabajar con fechas y horas. Proporciona clases y funciones para crear, manipular y formatear fechas, horas y marcas de tiempo."
+    },
+    {
+      "name": "os",
+      "keyword": ["os", "sistema operativo"],
+      "res": "En Python, el módulo 'os' se utiliza para interactuar con el sistema operativo. Proporciona funciones para realizar operaciones relacionadas con el sistema de archivos, el entorno del sistema y más."
+    },
+    {
+      "name": "json",
+      "keyword": ["json", "serializacion"],
+      "res": "En Python, el módulo 'json' se utiliza para trabajar con datos en formato JSON. Proporciona funciones para convertir objetos de Python a JSON, y viceversa, y para leer y escribir archivos JSON."
+    },
+    {
+      "name": "try",
+      "keyword": ["try", "except", "errores"],
+      "res": "En Python, la estructura 'try-except' se utiliza para manejar excepciones y errores. Permite capturar y manejar excepciones que pueden ocurrir durante la ejecución de un bloque de código."
+    },
+    {
+      "name": "lambda",
+      "keyword": ["lambda", "anonimas"],
+      "res": "En Python, las funciones lambda (funciones anónimas) son funciones pequeñas y anónimas que se definen sin un nombre. Se utilizan para crear funciones rápidas y sencillas sin la necesidad de una definición formal de función."
+    },
+    {
+      "name": "map",
+      "keyword": ["map", "mapear"],
+      "res": "En Python, la función 'map' se utiliza para aplicar una función a cada elemento de una secuencia (como una lista) y retornar un iterador con los resultados. Es una forma eficiente de aplicar una operación a todos los elementos de una secuencia."
+    },
+    {
+      "name": "filter",
+      "keyword": ["filter", "filtrar"],
+      "res": "En Python, la función 'filter' se utiliza para filtrar elementos de una secuencia (como una lista) basándose en una condición especificada. Retorna un iterador con los elementos que cumplen la condición."
+    },
+    {
+      "name": "reduce",
+      "keyword": ["reduce", "reducir"],
+      "res": "En Python, la función 'reduce' se utiliza para aplicar una operación acumulativa a los elementos de una secuencia (como una lista) y retornar un solo valor. Requiere el módulo 'functools' para ser importado."
+    },
+    {
+      "name": "zip",
+      "keyword": ["zip", "emparejar", "combinar"],
+      "res": "En Python, la función 'zip' se utiliza para combinar elementos de varias secuencias (como listas) en pares ordenados. Retorna un iterador que genera tuplas con los elementos combinados en el mismo índice de cada secuencia."
+    },
+    {
+      "name": "enumerate",
+      "keyword": ["enumerate", "enumerar", "indexar"],
+      "res": "En Python, la función 'enumerate' se utiliza para agregar un contador a un iterable y retornar un objeto enumerado. Permite iterar sobre los elementos de una secuencia junto con su índice correspondiente."
+    },
+    {
+      "name": "sorted",
+      "keyword": ["sorted", "ordenar", "clasificar"],
+      "res": "En Python, la función 'sorted' se utiliza para ordenar los elementos de una secuencia (como una lista) en un nuevo orden. Retorna una nueva secuencia con los elementos ordenados de acuerdo a un criterio especificado."
+    },
+    {
+      "name": "any",
+      "keyword": ["any", "alguno"],
+      "res": "En Python, la función 'any' se utiliza para determinar si al menos uno de los elementos de una secuencia (como una lista) cumple con una condición. Retorna 'True' si al menos un elemento cumple la condición, y 'False' si ninguno lo hace."
+    },
+    {
+      "name": "all",
+      "keyword": ["all"],
+      "res": "En Python, la función 'all' se utiliza para determinar si todos los elementos de una secuencia (como una lista) cumplen con una condición. Retorna 'True' si todos los elementos cumplen la condición, y 'False' si al menos uno no lo hace."
+    },
+    {
+      "name": "sum",
+      "keyword": ["sum", "suma"],
+      "res": "En Python, la función 'sum' se utiliza para calcular la suma de los elementos de una secuencia (como una lista). Retorna la suma total de los valores numéricos de la secuencia."
+    },
+    {
+      "name": "max",
+      "keyword": ["max", "maximo"],
+      "res": "En Python, la función 'max' se utiliza para encontrar el valor máximo en una secuencia (como una lista). Retorna el valor máximo de acuerdo a un criterio de comparación."
+    },
+    {
+      "name": "min",
+      "keyword": ["min", "minimo"],
+      "res": "En Python, la función 'min' se utiliza para encontrar el valor mínimo en una secuencia (como una lista). Retorna el valor mínimo de acuerdo a un criterio de comparación."
+    },
+    {
+      "name": "abs",
+      "keyword": ["abs", "absoluto"],
+      "res": "En Python, la función 'abs' se utiliza para obtener el valor absoluto de un número. Retorna el valor numérico sin tener en cuenta su signo."
+    },
+    {
+      "name": "Saludo",
+      "keyword": ["hola", "buenos dias", "tardes", "noches"],
+      "res": "Hola, ¿en qué puedo ayudarte hoy?"
+    },
+    {
+      "name": "Nombre",
+      "keyword": ["nombre", "llamas"],
+      "res": "Me llamo ChatBot. ¿Y tú, cómo te llamas?"
+    },
+    {
+      "name": "Estado de animo",
+      "keyword": ["estas", "tal", "sientes"],
+      "res": "Gracias por preguntar. Como soy un bot, no tengo emociones, pero estoy aquí para ayudarte en lo que necesites."
+    },
+    {
+      "name": "Modo Happy",
+      "keyword": ["feliz", "contento", "alegre", "divertido"],
+      "res": "Me alegra escuchar eso. Si necesitas algo, estaré encantado de ayudarte con una sonrisa en mi rostro virtual."
+    },
+    {
+      "name": "Despedida",
+      "keyword": ["adios", "chao", "bye"],
+      "res": "Hasta luego. Espero haberte sido de ayuda. ¡Que tengas un buen día!"
+    },
+    {
+      "name": "Agradecimiento",
+      "keyword": ["gracias", "muchas gracias", "agradecido"],
+      "res": "De nada. Estoy aquí para ayudar. Si tienes más preguntas, no dudes en hacerlas."
+    },
+    {
+      "name": "Tiempo",
+      "keyword": ["tiempo", "clima", "temperatura"],
+      "res": "Lamentablemente, como soy un bot, no tengo acceso en tiempo real a la información meteorológica. Te sugiero consultar una aplicación o sitio web confiable para obtener el pronostico del tiempo."
+    },
+    {
+      "name": "Chiste",
+      "keyword": ["chiste", "broma"],
+      "res": "¡Claro! Aquí tienes uno: ¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter. ¡Espero que te haya sacado una sonrisa!"
+    },
+    {
+      "name": "Musica",
+      "keyword": ["musica", "cancion", "musical"],
+      "res": "¡Claro! ¿Qué tipo de musica te gusta? Puedo recomendarte algunas canciones populares o artistas según tus preferencias."
+    },
+    {
+      "name": "creadores",
+      "keyword": ["creadores", "desarrolladores", "programo"],
+      "res": "Los desarrolladores del proyecto Alina fueron los estudiantes de Computación Gráfica, Andrés Avendaño, Steven Espluga y Abrahan Amaya."
+    }
+  ]
+}
